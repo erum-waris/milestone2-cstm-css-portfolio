@@ -14,8 +14,12 @@ const Navbar = () => {
 
   return (
     <nav className="navbar-box">
+     
       <div className="navbar-heading-div">
-        <h1 className="logo">EW</h1>
+      {isOpen ? "":
+      <h1 className="logo">EW</h1>
+        
+      }
       </div>
 
       {/* Desktop Menu */}
